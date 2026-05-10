@@ -1,0 +1,744 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------- BODY ---------- */
+
+body {
+
+    font-family: "Poppins", sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #F8F7FF,
+        #F3F0FF
+    );
+
+    color: #312E81;
+
+    min-height: 100vh;
+
+    overflow-x: hidden;
+}
+
+
+/* ---------- NAVBAR ---------- */
+
+.navbar {
+
+    background: rgba(255, 255, 255, 0.7);
+
+    backdrop-filter: blur(12px);
+
+    padding: 18px 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    box-shadow:
+        0 4px 20px rgba(167, 139, 250, 0.15);
+
+    border-bottom:
+        1px solid rgba(255,255,255,0.3);
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+}
+
+.navbar h2 {
+
+    color: #7C3AED;
+
+    font-size: 28px;
+
+    font-weight: 700;
+}
+
+.nav-links {
+
+    display: flex;
+
+    gap: 24px;
+
+    align-items: center;
+}
+
+.nav-links a {
+
+    color: #4C1D95;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+
+    color: #8B5CF6;
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+.primary-btn {
+
+    background: linear-gradient(
+        135deg,
+        #A78BFA,
+        #8B5CF6
+    );
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 14px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.primary-btn:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 6px 18px rgba(139, 92, 246, 0.45);
+}
+
+.secondary-btn {
+
+    background: white;
+
+    border: 2px solid #C4B5FD;
+
+    color: #6D28D9;
+
+    padding: 12px 22px;
+
+    border-radius: 14px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.secondary-btn:hover {
+
+    background: #F3F0FF;
+}
+
+
+/* ---------- INPUTS ---------- */
+
+.form-input {
+
+    width: 100%;
+
+    padding: 14px;
+
+    margin-top: 10px;
+
+    margin-bottom: 15px;
+
+    border-radius: 14px;
+
+    border: 1px solid #DDD6FE;
+
+    background-color: white;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.form-input:focus {
+
+    border-color: #8B5CF6;
+
+    box-shadow:
+        0 0 0 4px rgba(167,139,250,0.2);
+}
+
+
+/* ---------- AUTH CARD ---------- */
+
+.auth-container {
+
+    width: 400px;
+
+    margin: 70px auto;
+
+    background: rgba(255,255,255,0.7);
+
+    backdrop-filter: blur(14px);
+
+    padding: 35px;
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 10px 30px rgba(139,92,246,0.15);
+}
+
+
+/* ---------- PAGE TITLE ---------- */
+
+.page-title {
+
+    text-align: center;
+
+    margin-top: 40px;
+
+    margin-bottom: 25px;
+
+    font-size: 38px;
+
+    font-weight: 700;
+
+    color: #6D28D9;
+}
+
+
+/* ---------- HOME PAGE ---------- */
+
+.home-page {
+
+    min-height: 100vh;
+}
+
+
+/* ---------- HERO SECTION ---------- */
+
+.hero-section {
+
+    position: relative;
+
+    min-height: 90vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+.hero-content {
+
+    max-width: 850px;
+}
+
+
+/* ---------- HERO TITLE ---------- */
+
+.hero-title {
+
+    font-size: 64px;
+
+    font-weight: 800;
+
+    line-height: 1.2;
+
+    color: #312E81;
+
+    margin-bottom: 24px;
+}
+
+.hero-title span {
+
+    display: block;
+
+    background: linear-gradient(
+        135deg,
+        #A78BFA,
+        #8B5CF6
+    );
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* ---------- HERO SUBTITLE ---------- */
+
+.hero-subtitle {
+
+    font-size: 20px;
+
+    line-height: 1.8;
+
+    color: #6B7280;
+
+    margin-bottom: 35px;
+}
+
+
+/* ---------- HERO BUTTONS ---------- */
+
+.hero-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 18px;
+
+    flex-wrap: wrap;
+}
+
+
+/* ---------- FLOATING CARDS ---------- */
+
+
+
+
+
+/* ---------- FEATURES SECTION ---------- */
+
+.features-section {
+
+    width: 90%;
+
+    margin: auto;
+
+    padding: 70px 0;
+}
+
+
+/* ---------- SECTION TITLE ---------- */
+
+.section-title {
+
+    text-align: center;
+
+    font-size: 42px;
+
+    color: #6D28D9;
+
+    margin-bottom: 50px;
+}
+
+
+/* ---------- FEATURES GRID ---------- */
+
+.features-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 30px;
+}
+
+
+/* ---------- FEATURE CARD ---------- */
+
+.feature-card {
+
+    background: rgba(255,255,255,0.75);
+
+    backdrop-filter: blur(14px);
+
+    padding: 35px;
+
+    border-radius: 28px;
+
+    text-align: center;
+
+    box-shadow:
+        0 10px 25px rgba(139,92,246,0.12);
+
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+
+    transform: translateY(-8px);
+}
+
+
+/* ---------- FEATURE ICON ---------- */
+
+.feature-icon {
+
+    font-size: 42px;
+
+    color: #8B5CF6;
+
+    margin-bottom: 18px;
+}
+
+
+/* ---------- FEATURE TEXT ---------- */
+
+.feature-card h3 {
+
+    margin-bottom: 14px;
+
+    color: #312E81;
+}
+
+.feature-card p {
+
+    color: #6B7280;
+
+    line-height: 1.7;
+}
+
+
+/* ---------- HOTELS ---------- */
+
+.hotels-container {
+
+    width: 90%;
+
+    margin: 40px auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(320px, 1fr));
+
+    gap: 28px;
+}
+
+.hotel-card {
+
+    background: rgba(255,255,255,0.75);
+
+    backdrop-filter: blur(12px);
+
+    border-radius: 24px;
+
+    padding: 24px;
+
+    box-shadow:
+        0 10px 25px rgba(139,92,246,0.12);
+
+    transition: 0.35s;
+}
+
+.hotel-card:hover {
+
+    transform:
+        translateY(-8px) scale(1.02);
+
+    box-shadow:
+        0 14px 35px rgba(139,92,246,0.2);
+}
+
+.hotel-card h2 {
+
+    margin-bottom: 14px;
+
+    color: #6D28D9;
+}
+
+.hotel-card p {
+
+    margin-bottom: 10px;
+
+    color: #4B5563;
+}
+
+
+/* ---------- CHAT UI ---------- */
+
+.chat-page {
+
+    width: 80%;
+
+    margin: 35px auto;
+}
+
+.chat-container {
+
+    background:
+        rgba(255,255,255,0.75);
+
+    backdrop-filter: blur(14px);
+
+    height: 520px;
+
+    border-radius: 24px;
+
+    padding: 25px;
+
+    overflow-y: auto;
+
+    box-shadow:
+        0 10px 30px rgba(139,92,246,0.12);
+
+    margin-bottom: 20px;
+}
+
+.message-row {
+
+    display: flex;
+
+    margin-bottom: 18px;
+}
+
+.message-row.user {
+
+    justify-content: flex-end;
+}
+
+.message-row.ai {
+
+    justify-content: flex-start;
+}
+
+.message-bubble {
+
+    max-width: 65%;
+
+    padding: 14px 18px;
+
+    border-radius: 20px;
+
+    line-height: 1.6;
+
+    font-size: 15px;
+}
+
+.message-bubble.user {
+
+    background:
+        linear-gradient(
+            135deg,
+            #A78BFA,
+            #8B5CF6
+        );
+
+    color: white;
+
+    border-bottom-right-radius: 6px;
+}
+
+.message-bubble.ai {
+
+    background: white;
+
+    color: #312E81;
+
+    border-bottom-left-radius: 6px;
+
+    box-shadow:
+        0 4px 15px rgba(0,0,0,0.06);
+}
+
+.chat-input-container {
+
+    display: flex;
+
+    gap: 12px;
+}
+
+.chat-input {
+
+    flex: 1;
+
+    padding: 15px;
+
+    border-radius: 16px;
+
+    border: 1px solid #DDD6FE;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+
+/* ---------- BOOKING / PAYMENT ---------- */
+
+.booking-container {
+
+    width: 520px;
+
+    margin: 45px auto;
+
+    background:
+        rgba(255,255,255,0.78);
+
+    backdrop-filter: blur(14px);
+
+    padding: 35px;
+
+    border-radius: 28px;
+
+    box-shadow:
+        0 10px 30px rgba(139,92,246,0.14);
+}
+
+.booking-container h2 {
+
+    margin-bottom: 18px;
+
+    color: #6D28D9;
+}
+
+.booking-container p {
+
+    margin-bottom: 12px;
+
+    font-size: 16px;
+
+    color: #4B5563;
+}
+
+
+/* ---------- BOOKING HISTORY ---------- */
+
+.history-container {
+
+    width: 85%;
+
+    margin: 40px auto;
+}
+
+.history-card {
+
+    background:
+        rgba(255,255,255,0.78);
+
+    backdrop-filter: blur(14px);
+
+    padding: 24px;
+
+    border-radius: 24px;
+
+    margin-bottom: 22px;
+
+    box-shadow:
+        0 10px 25px rgba(139,92,246,0.12);
+
+    transition: 0.3s;
+}
+
+.history-card:hover {
+
+    transform: translateY(-5px);
+}
+
+.status-confirmed {
+
+    color: #22C55E;
+
+    font-weight: 700;
+}
+
+.status-pending {
+
+    color: #F59E0B;
+
+    font-weight: 700;
+}
+
+
+/* ---------- SUCCESS MESSAGE ---------- */
+
+.success-message {
+
+    margin-top: 22px;
+
+    text-align: center;
+
+    color: #22C55E;
+
+    font-weight: 700;
+
+    font-size: 18px;
+}
+
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 768px) {
+
+    .hero-title {
+
+        font-size: 42px;
+    }
+
+    .hero-subtitle {
+
+        font-size: 16px;
+    }
+
+    .floating-card {
+
+        display: none;
+    }
+
+    .section-title {
+
+        font-size: 32px;
+    }
+
+    .booking-container {
+
+        width: 92%;
+    }
+
+    .chat-page {
+
+        width: 95%;
+    }
+
+    .message-bubble {
+
+        max-width: 85%;
+    }
+
+    .auth-container {
+
+        width: 92%;
+    }
+
+    .navbar {
+
+        padding: 16px 20px;
+    }
+
+    .nav-links {
+
+        gap: 14px;
+    }
+}
