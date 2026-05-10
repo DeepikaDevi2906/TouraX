@@ -12,20 +12,24 @@ TouraX helps users:
 
 ---
 
-#  Current Working Features
+#  Working Features
 
-AI-powered tourism assistant  
-Hotel search by city  
-Hotel search by budget  
-Tourist place recommendations  
-Hotel booking workflow  
-Payment workflow  
-Booking history management  
-JWT authentication  
-LangChain tool calling  
-OpenAI integration  
-Conversation memory  
-Modern responsive UI  
+- AI-powered tourism assistant
+- User registration and login
+- JWT authentication
+- LangChain tool calling
+- OpenAI integration
+- Hotel search by city
+- Hotel search by budget
+- Tourist place recommendations
+- Hotel booking workflow
+- Payment redirection workflow
+- Booking confirmation
+- Booking history management
+- Conversation memory
+- Responsive modern UI
+- Flask REST APIs
+- SQLite database integration
 
 ---
 
