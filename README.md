@@ -1,76 +1,122 @@
 # TouraX ✨
 
-An AI-powered tourism and hotel booking platform built using React, Flask, LangChain, and OpenAI.
+TouraX is an AI-powered tourism planning and hotel booking platform built using React, Flask, LangChain, OpenAI, and Model Context Protocol (MCP).
 
-TouraX helps users:
-- Search hotels
-- Book hotels
-- Explore tourist places
-- Get AI-powered travel assistance
-- Manage bookings and payments
-- Interact with an intelligent tourism assistant
+The platform combines intelligent travel assistance, hotel booking, budget planning, safety analysis, and real-time travel recommendations through autonomous AI workflows and MCP-based tool orchestration.
 
 ---
 
-#  Working Features
+# Key Features
 
-- AI-powered tourism assistant
-- User registration and login
-- JWT authentication
-- LangChain tool calling
-- OpenAI integration
-- Hotel search by city
-- Hotel search by budget
-- Tourist place recommendations
-- Hotel booking workflow
-- Payment redirection workflow
-- Booking confirmation
-- Booking history management
-- Conversation memory
-- Responsive modern UI
-- Flask REST APIs
-- SQLite database integration
+* AI-powered tourism assistant
+* Hotel search and booking
+* Tourist place recommendations
+* Travel budget planning
+* Safety analysis and recommendations
+* Weather intelligence
+* Flight information assistance
+* Maps and distance calculation
+* Booking management
+* JWT authentication
+* Conversation memory
+* Responsive modern UI
 
 ---
 
-# Features
+# AI Agent Capabilities
 
-## AI Tourism Assistant
+The TouraX AI Assistant can:
 
-- Conversational AI chat
-- LangChain-powered tool calling
-- Intelligent travel assistance
-- Hotel recommendations
-- Tourist place suggestions
-- Emergency support guidance
-
----
-
-## Hotel Booking System
-
-- Browse hotels
-- Search hotels by city
-- Search hotels by budget
-- Book hotels
-- Payment workflow
-- Booking confirmation
+* Recommend hotels based on user preferences
+* Suggest tourist attractions and travel plans
+* Provide weather insights for destinations
+* Analyze destination safety
+* Estimate travel budgets
+* Assist with flight-related queries
+* Calculate travel distance and time
+* Maintain conversational context across interactions
 
 ---
 
-## Authentication
+# MCP Architecture
 
-- User registration
-- User login
-- JWT authentication
-- Protected routes
+TouraX integrates multiple Model Context Protocol (MCP) services:
+
+### Weather MCP
+
+* Destination weather information
+* Travel condition insights
+
+### Flight MCP
+
+* Flight information retrieval
+* Ticket price estimation
+
+### Safety MCP
+
+* Destination safety assessment
+* Emergency recommendations
+
+### Maps MCP
+
+* Distance calculation
+* Travel time estimation
+
+### Budget MCP
+
+* Trip cost estimation
+* Budget feasibility analysis
+* Travel expense breakdown
 
 ---
 
-## Booking Management
+# AI Agent Architecture
 
-- Booking history
-- Payment status
-- Booking status updates
+The AI assistant uses:
+
+* LangChain Agent
+* OpenAI LLM
+* Tool Calling
+* Conversation Memory
+* MCP Client-Server Architecture
+* Autonomous Tool Orchestration
+
+---
+
+# AI Tools
+
+* Hotel Search Tool
+* Tourist Places Tool
+* Booking Tool
+* Payment Redirect Tool
+* Emergency Support Tool
+* Weather MCP Tool
+* Flight MCP Tool
+* Safety MCP Tool
+* Maps MCP Tool
+* Budget MCP Tool
+
+---
+
+# Hotel Booking System
+
+* Browse hotels
+* Search hotels by city
+* Search hotels by budget
+* Book hotels
+* Payment workflow
+* Booking confirmation
+* Booking history management
+
+---
+
+# Authentication & Security
+
+* User registration
+* User login
+* JWT authentication
+* Protected routes
+* Secure API access
 
 ---
 
@@ -78,46 +124,34 @@ TouraX helps users:
 
 ## Frontend
 
-- React.js
-- React Router
-- Axios
-- Framer Motion
-- React Icons
-
----
+* React.js
+* React Router
+* Axios
+* Framer Motion
+* React Icons
 
 ## Backend
 
-- Flask
-- Flask JWT Extended
-- SQLAlchemy
-- SQLite
-
----
+* Flask
+* Flask-JWT-Extended
+* SQLAlchemy
+* Flask-SocketIO
+* SQLite
 
 ## AI & Agent Framework
 
-- LangChain
-- OpenAI API
+* OpenAI API
+* LangChain
+* MCP
 
----
+## Database
 
-#  AI Agent Architecture
+* SQLite
 
-The AI assistant uses:
-- LangChain Agent
-- OpenAI LLM
-- Tool Calling
-- Conversation Memory
+## Developer Tools
 
----
+* Git
+* GitHub
+* Postman
 
-#  AI Tools
 
-- Hotel Search Tool
-- Tourist Places Tool
-- Booking Tool
-- Payment Redirect Tool
-- Emergency Support Tool
-
----
