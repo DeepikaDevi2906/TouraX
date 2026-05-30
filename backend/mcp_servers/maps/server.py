@@ -1,10 +1,14 @@
 from mcp.server.fastmcp import FastMCP
 import requests
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+ORS_API_KEY = os.getenv("ORS_API_KEY")
+
 mcp = FastMCP("maps")
-
-ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjAxYzQ1OGJlZTQ3ZjQ4OTVhOWNjZmE0MDM1MmI1ZDJmIiwiaCI6Im11cm11cjY0In0="
-
 
 def get_coordinates(place):
 
