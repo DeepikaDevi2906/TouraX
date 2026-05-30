@@ -1,10 +1,13 @@
 from mcp.server.fastmcp import FastMCP
 import requests
+from dotenv import load_dotenv
+import os
+import requests
+load_dotenv()
 
 mcp = FastMCP("flight")
 
-
-RAPIDAPI_KEY = "4bcb701dffmsh6b77ca0885d4dcep1b901cjsn1031dbdaea67"
+RAPIDAPI_KEY = os.getenv("RAPIDAPI_KEY")
 
 DESTINATION_FLIGHTS = {
     "chennai": "AI574",
